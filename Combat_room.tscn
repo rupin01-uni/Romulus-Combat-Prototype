@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://dw71hl4617381"]
+
+[ext_resource type="PackedScene" uid="uid://c861oey0jjhes" path="res://Player.tscn" id="1_fjsu6"]
+[ext_resource type="Script" uid="uid://clashh0jpgmvm" path="res://training_dummy.gd" id="2_23ion"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_23ion"]
+size = Vector2(50, 46)
+
+[node name="CombatRoom" type="Node2D" unique_id=705641543]
+
+[node name="Player" parent="." unique_id=99281533 instance=ExtResource("1_fjsu6")]
+
+[node name="TrainingDummy" type="StaticBody2D" parent="." unique_id=2013549245]
+script = ExtResource("2_23ion")
+
+[node name="Polygon2D" type="Polygon2D" parent="TrainingDummy" unique_id=825043753]
+z_index = -1
+color = Color(0.35903484, 0.28544617, 0.0047138296, 1)
+polygon = PackedVector2Array(67, -15, 110, -16, 110, 12, 68, 12)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TrainingDummy" unique_id=1224355552]
+position = Vector2(91, -12)
+shape = SubResource("RectangleShape2D_23ion")

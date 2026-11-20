@@ -1,0 +1,20 @@
+# Romulus — Artwork Attribution
+
+Character sprites were generated using the Universal LPC Spritesheet Character Generator.
+
+Original artwork belongs to the respective LPC contributors.
+
+The complete contributor list, source links, and applicable licences are provided in:
+
+`Assets/Player/credits/credits.txt`
+
+Additional attribution records:
+
+- `Assets/Player/credits/credits.csv`
+- `Assets/Player/credits/metadata.json`
+
+Character sprite assets are third-party artwork and are not claimed as original artwork by this project's developer.
+
+Generator: https://github.com/LiberatedPixelCup/Universal-LPC-Spritesheet-Character-Generator
+
+Please consult the original attribution records and applicable licence terms before redistributing or modifying the sprites.
